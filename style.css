@@ -12,7 +12,6 @@ padding: 5px;
 .page-footer {
   display: inline-flex;
 border: 2px solid rgb(0, 0, 0);
-
 }
 .hero-image {
 text-align: center;
@@ -64,3 +63,14 @@ font-family: cursive;
 .skills-level-ok {
   background-color: #47bb52;
 }
+a {text-decoration: none;}
+.url {
+padding: 4px;
+border: 1px dashed black;
+border-radius: 20%;
+margin: 10px;
+}
+.url-1 {
+  color: rgb(0, 0, 40);
+}
+.url-2 {color:rgb(40, 0, 0);}
