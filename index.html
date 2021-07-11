@@ -6,35 +6,57 @@
     <title>Портфолио Junior верстальщика</title>
   </head>
 
-  <body>
+  <body background="img\hero-bg.jpg" style="text-align: center;">
     <header class="page-header">
-    <div>
-      контакты в шапке
+    <div class="container">
+      <a class="header-email" href="mailto:vladdad4298@gmail.com"><img src="img\icon-email-header.svg" alt="Значок почты"> vladdad4298@gmail.com
+      </a>
     </div>    
-        <nav>
+        <nav class="navi">
           главные части сайта
         </nav>
     </header>
 
     <section class="hero-image">
-      <h1 class="heading">Неопознанный Енот</h1>
+      <h1 class="heading">DashSec</h1>
       <p>Junior верстальщик</p>
     </section>
 
     <section class="intro">
       <h2 class="subheading">Давайте познакомимся</h2>
+            <figure class="figure">
+        <img class="project-image" src="img\kot-flexit.gif" alt="Кот Флексит">
+      </figure>
       <h3>Пара слов о себе</h3>
       <p>Текст с парой слов о себе.</p>
       <h3>Чем могу быть полезен</h3>
       <p>Текст о том, чем могу быть полезен.</p>
+<div class="skills">
+  <h3>Мои навыки</h3>
+  <div class="skills-list">
+        <dl class="skills">
+          <dt><img src="img\icon-html.svg">HTML</dt>
+
+          <dd><div style="width:40%;" class="skills-level skills-level-ok"> 40%</div></dd>
+          <dt><img src="img\icon-css.svg">CSS</dt>
+          <dd><div style="width:35%;" class="skills-level">35%</div></dd>
+          <dt><img src="img\javascript-4.svg" width="25px">JS</dt>
+          <dd><div style="width:25%;" class="skills-level">25%</div></dd>
+        </dl>
+      </div>
     </section>
 
     <section class="portfolio">
-      <h2 class="subheading">Мои работы</h2>
+      <h2 class="subheading"><aside>(не)</aside>Мои работы</h2>
+<figure class="project-image">
+  <img class="backgr-work" src="source\project-gloevk\img\gloevk-bg.jpg" height="550"  alt="Cайт магазина товаров для дома">
+  <img class="work-exmpl" src="source\project-gloevk\img\gloevk-examples.png"  height="100">
+</figure>
 
       <h3>Магазин товаров для дома</h3>
       <p>Мой первый сайт.</p>
-
+<a class="button" href="source/project/index.html">Открыть страницу
+</a>
       <h3>Блог начинающего верстальщика</h3>
       <p>Статический блог про обучение HTML и CSS.</p>
     </section>

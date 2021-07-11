@@ -3,8 +3,64 @@ body {
   font-family: "Arial", sans-serif;
   font-size: 14px;
   line-height: 20px;
+  color:rgb(0, 0, 0);
 }
 .about-me {
 padding: 5px;
 
+}
+.page-footer {
+  display: inline-flex;
+border: 2px solid rgb(0, 0, 0);
+
+}
+.hero-image {
+text-align: center;
+font-size: 36px;
+line-height: 42px;
+font-family: cursive;
+}
+.container {
+text-align: right;
+
+}
+.header-email {
+  color: rgb(0, 0, 0);
+  text-decoration:none ;
+}
+.navi {
+  display: inline-flex;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 25%;
+  padding: 5px;
+}
+.project-image {
+display: block;
+}
+.figure {
+  display: inline-flex;
+}
+.button {
+border: 2px solid rgb(63, 135, 230);
+text-decoration:none ;
+background: rgb(69, 143, 255);
+color:white;
+padding: 5px;
+font-family: cursive;
+}
+.skills dd {
+  margin: 0;
+  margin-bottom: 10px;
+
+  background-color: #a3a3a3;
+}
+.skills-level {
+  font-size: 12px;
+  text-align: center;
+  color: #fcfcfc;
+  background-color: #4470c4;
+}
+
+.skills-level-ok {
+  background-color: #47bb52;
 }
